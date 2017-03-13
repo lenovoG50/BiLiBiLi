@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RelativeLayout rlv;
     private FrameLayout frl;
     private RelativeLayout header;
+    private TextView vipText;
+    private RelativeLayout home;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +75,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         frl = (FrameLayout) findViewById(R.id.slidingHeader);
         rlv = (RelativeLayout) findViewById(R.id.selector);
-
+        vipText = (TextView) findViewById(R.id.vipText);
+        home = (RelativeLayout) findViewById(R.id.home);
     }
 
     private void initVpAdapter() {
@@ -160,7 +163,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         frl.setBackgroundColor(getResources().getColor(InitTools.map.get("colorBcakground")));
         dayOrNight.setBackgroundResource(InitTools.map.get("icon"));
         vp.setBackgroundColor(getResources().getColor(InitTools.map.get("colorSlidingBackground")));
-        title.setBackgroundColor(getResources().getColor(InitTools.map.get("colorSlidingBackground")));
-        header.setBackgroundColor(getResources().getColor(InitTools.map.get("colorSlidingBackground")));
+        title.setBackgroundColor(getResources().getColor(InitTools.map.get("colorBcakground")));
+        header.setBackgroundColor(getResources().getColor(InitTools.map.get("colorBcakground")));
+        vipText.setTextColor(getResources().getColor(InitTools.map.get("textColor")));
+        home.setBackgroundColor(getResources().getColor(InitTools.map.get("home")));
     }
 }

@@ -59,7 +59,7 @@
             android:id="@+id/home"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#d4d4d4">
+            >
 
             <ImageView
                 android:id="@+id/homeIcon"
@@ -85,6 +85,7 @@
                 android:background="@drawable/ic_nav_vip" />
 
             <TextView
+                android:id="@+id/vipText"
                 style="@style/style_sliding_text"
                 android:layout_toRightOf="@+id/vipIcon"
                 android:text="我的大会员" />

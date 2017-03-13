@@ -10,4 +10,5 @@
     <color name="textColorNight">#ffffff</color>
     <color name="colorSlidingBackgroundNight">#3b3b3b</color>
     <color name="colorBcakgroundNight">#1e1e1e</color>
+    <color name="homeBcakground">#d4d4d4</color>
 </resources>
