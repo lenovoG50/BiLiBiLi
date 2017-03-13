@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="recommendText">#Fb7299</color>
+
+    <color name="textColorday">#000</color>
+    <color name="textColorNight">#ffffff</color>
+    <color name="colorSlidingBackgroundNight">#3b3b3b</color>
+    <color name="colorBcakgroundNight">#1e1e1e</color>
 </resources>

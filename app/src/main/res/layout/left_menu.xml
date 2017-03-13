@@ -39,6 +39,7 @@
         </RelativeLayout>
 
         <ImageView
+            android:id="@+id/dayOrNight"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_gravity="right"
@@ -48,8 +49,9 @@
     </FrameLayout>
 
     <RelativeLayout
+        android:id="@+id/selector"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/slidingHeader"
         android:layout_marginTop="5dp">
 
@@ -247,7 +249,7 @@
             <ImageView
                 android:id="@+id/settingIcon"
                 style="@style/style_sliding_icon"
-            android:background="@drawable/ic_settings_black_24dp" />
+                android:background="@drawable/ic_settings_black_24dp" />
 
             <TextView
                 style="@style/style_sliding_text"

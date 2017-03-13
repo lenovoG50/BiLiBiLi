@@ -23,4 +23,39 @@
         <item name="android:textSize">14sp</item>
     </style>
 
+    <style name="style_recommend_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+    <style name="style_sort_bt">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="style_sort_text_bt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="style_sort_heri">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="style_sort_icon">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
 </resources>

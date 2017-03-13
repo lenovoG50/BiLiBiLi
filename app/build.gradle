@@ -10,6 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
@@ -29,4 +30,11 @@ dependencies {
     compile 'com.android.support:design:25.2.0'
     testCompile 'junit:junit:4.12'
     compile project(':library')
+    compile project(':swiperefreshlayoutlibrary')
+    compile 'org.xutils:xutils:3.3.42'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.tencent.bugly:crashreport:2.4.0'
+
+
 }

@@ -3,4 +3,268 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/sort1"
+        style="@style/style_sort_heri">
+
+        <RelativeLayout
+            android:id="@+id/live"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconLive"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_head_live" />
+
+            <TextView
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconLive"
+                android:text="直播" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/drama"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconDrama"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t13" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconDrama"
+                android:text="番剧" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/cartoon"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconCartoon"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t1" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconCartoon"
+                android:text="动画" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/music"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconMusic"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t3" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconMusic"
+                android:text="音乐" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sort2"
+        style="@style/style_sort_heri"
+        android:layout_below="@id/sort1">
+
+        <RelativeLayout
+            android:id="@+id/dance"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconDance"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t129" />
+
+            <TextView
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconDance"
+                android:text="舞蹈" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/game"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconGame"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t4" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconGame"
+                android:text="游戏" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tech"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconTech"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t36" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconTech"
+                android:text="科技" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/life"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconLife"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t160" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconLife"
+                android:text="生活" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sort3"
+        style="@style/style_sort_heri"
+        android:layout_below="@+id/sort2">
+
+        <RelativeLayout
+            android:id="@+id/livestock"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconLivestock"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t119" />
+
+            <TextView
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconLivestock"
+                android:text="鬼畜" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fashion"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconFashion"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t155" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconFashion"
+                android:text="时尚" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ad"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconAD"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t165" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconAD"
+                android:text="广告" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/recreation"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconRecreation"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t31" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconRecreation"
+                android:text="娱乐" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/sort4"
+        style="@style/style_sort_heri"
+        android:layout_below="@+id/sort3">
+
+        <RelativeLayout
+            android:id="@+id/movie"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconMovie"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t23" />
+
+            <TextView
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconMovie"
+                android:text="电影" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tv"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconTv"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_t11" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconTv"
+                android:text="电视剧" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gameCenter"
+            style="@style/style_sort_bt">
+
+            <ImageView
+                android:id="@+id/iconGameCenter"
+                style="@style/style_sort_icon"
+                android:background="@mipmap/ic_category_game_center" />
+
+            <TextView
+
+                style="@style/style_sort_text_bt"
+                android:layout_below="@+id/iconGameCenter"
+                android:layout_centerHorizontal="true"
+                android:text="游戏中心" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_sort_bt"></RelativeLayout>
+
+    </LinearLayout>
 </RelativeLayout>

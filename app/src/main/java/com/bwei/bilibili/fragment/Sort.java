@@ -18,10 +18,13 @@ import com.bwei.bilibili.R;
 
 public class Sort extends Fragment {
 
+    private View view;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.sort, null);
+        view = inflater.inflate(R.layout.sort, null);
+
         return view;
     }
 }
